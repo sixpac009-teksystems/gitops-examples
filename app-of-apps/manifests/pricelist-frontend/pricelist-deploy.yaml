@@ -8,7 +8,7 @@ metadata:
   name: pricelist
   namespace: pricelist
   annotations:
-    argocd.argoproj.io/sync-wave: "1"
+    openshift-gitops.argoproj.io/sync-wave: "1"
 spec:
   replicas: 1
   selector:

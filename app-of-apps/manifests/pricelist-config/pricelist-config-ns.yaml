@@ -4,6 +4,6 @@ metadata:
   creationTimestamp: null
   name: pricelist
   annotations:
-    argocd.argoproj.io/sync-wave: "0" 
+    openshift-gitops.argoproj.io/sync-wave: "0" 
 spec: {}
 status: {}

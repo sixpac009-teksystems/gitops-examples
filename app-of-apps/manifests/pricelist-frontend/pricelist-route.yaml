@@ -8,7 +8,7 @@ metadata:
   name: pricelist-route
   namespace: pricelist
   annotations:
-    argocd.argoproj.io/sync-wave: "4"
+    openshift-gitops.argoproj.io/sync-wave: "4"
 spec:
   host: ""
   port:

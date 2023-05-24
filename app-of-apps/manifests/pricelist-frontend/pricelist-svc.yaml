@@ -8,7 +8,7 @@ metadata:
   name: pricelist
   namespace: pricelist
   annotations:
-    argocd.argoproj.io/sync-wave: "2"
+    openshift-gitops.argoproj.io/sync-wave: "2"
 spec:
   ports:
   - port: 8080

@@ -2,9 +2,9 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: pricelist-frontend
-  namespace: argocd
+  namespace: openshift-gitops
   annotations:
-    argocd.argoproj.io/sync-wave: "2"
+    openshift-gitops.argoproj.io/sync-wave: "2"
 spec:
   destination:
     namespace: pricelist
@@ -12,7 +12,7 @@ spec:
   project: default
   source:
     path: app-of-apps/manifests/pricelist-frontend
-    repoURL: https://github.com/christianh814/gitops-examples
+    repoURL: https://github.com/sixpac009-teksystems/gitops-examples
     targetRevision: main
   syncPolicy:
     automated:

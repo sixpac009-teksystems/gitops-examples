@@ -2,9 +2,9 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: pricelist-database
-  namespace: argocd
+  namespace: openshift-gitops
   annotations:
-    argocd.argoproj.io/sync-wave: "1"
+    openshift-gitops.argoproj.io/sync-wave: "1"
 spec:
   destination:
     namespace: pricelist

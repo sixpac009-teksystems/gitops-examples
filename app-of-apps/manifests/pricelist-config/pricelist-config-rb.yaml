@@ -5,7 +5,7 @@ metadata:
   name: system:openshift:scc:anyuid
   namespace: pricelist
   annotations:
-    argocd.argoproj.io/sync-wave: "2"
+    openshift-gitops.argoproj.io/sync-wave: "2"
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
