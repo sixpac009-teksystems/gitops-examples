@@ -28,8 +28,8 @@ spec:
         - name: secondary.replicaCount
           value: "2"
     chart: mysql
-    repoURL: https://github.com/bitnami/charts/tree/main/bitnami/mysql
-    targetRevision: 9.10.1
+    repoURL: https://registry-1.docker.io/bitnamicharts
+    targetRevision: 9.9.1
   syncPolicy:
     automated:
       prune: true
