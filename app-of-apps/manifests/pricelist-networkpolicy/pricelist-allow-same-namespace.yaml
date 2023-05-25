@@ -8,4 +8,4 @@ spec:
   - from:
     - podSelector:
         matchLabels:
-          app: foobar
+          app: pricelist
