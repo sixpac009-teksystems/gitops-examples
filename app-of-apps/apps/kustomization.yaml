@@ -4,3 +4,4 @@ resources:
 - pricelist-config.yaml
 - pricelist-database.yaml
 - pricelist-frontend.yaml
+- pricelist-networkpolicy.yaml
