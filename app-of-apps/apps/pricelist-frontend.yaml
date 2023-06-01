@@ -19,6 +19,9 @@ spec:
       prune: true
       selfHeal: true
   ignoreDifferences:
+  - group: apps
     kind: Route
+    namespace: pricelist
+    name: pricelist-route
     jsonPointers:
     - /spec/host
