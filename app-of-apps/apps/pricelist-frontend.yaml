@@ -21,4 +21,4 @@ spec:
   ignoreDifferences:
     kind: Route
     jsonPointers:
-    - /status/ingress/conditions
+    - /spec/host
