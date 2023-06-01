@@ -19,8 +19,7 @@ spec:
       prune: true
       selfHeal: true
   ignoreDifferences:
-  - group: apps
-    kind: Route
+  - kind: Route
     namespace: pricelist
     name: pricelist-route
     jsonPointers:
