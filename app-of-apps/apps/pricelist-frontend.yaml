@@ -18,3 +18,7 @@ spec:
     automated:
       prune: true
       selfHeal: true
+  ignoreDifferences:
+    kind: Route
+    jsonPointers:
+    - /status/ingress/conditions
