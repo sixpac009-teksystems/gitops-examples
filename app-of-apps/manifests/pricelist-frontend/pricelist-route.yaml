@@ -8,9 +8,9 @@ metadata:
   name: pricelist-route
   namespace: pricelist
   annotations:
-    openshift-gitops.argoproj.io/sync-wave: '4'
+    openshift-gitops.argoproj.io/sync-wave: "4"
 spec:
-  host: ''
+  host: ""
   port:
     targetPort: 8080
   to:
@@ -20,5 +20,5 @@ spec:
 status:
   ingress:
   - conditions:
-    - status: 'True'
+    - status: "True"
       type: Admitted
