@@ -17,8 +17,3 @@ spec:
     kind: Service
     name: pricelist
     weight: 100
-status:
-  ingress:
-  - conditions:
-    - status: "True"
-      type: Admitted
